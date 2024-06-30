@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/shop.css">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>Responsive Cycle Website</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../../index.html" class="nav-logo">RYD It!</a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="../../index.html" class="nav-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./about.html" class="nav-link">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Shop
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contact.html" class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Close button  -->
+                <div class="nav-close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Toggle Button  -->
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="shop">
+        <div class="shop-container container">
+            <div class="shop-filter">
+                <h2 class="section-title" style="margin-bottom: 0;">
+                    OUR STORE
+                </h2>
+
+                <div class="input-wrap">
+                    <label class="price-filter">
+                        <p>PRICE</p>
+                        <i class="ri-arrow-down-s-line"></i>
+                    </label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="price" value="base1">1 - 4999</label>
+                        <label><input type="checkbox" name="price" value="base2">5000 - 9999</label>
+                        <label><input type="checkbox" name="price" value="base3">10000 - 19999</label>
+                        <label><input type="checkbox" name="price" value="base4">20000+</label>
+
+
+                        <button class="button show-result">
+                            Show Result
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!--==================== STORE ====================-->
+            <div class="products-container">
+
+                <!-- Template for Products -->
+                <!--
+                <div class="product" data-name="p-{{cycleId}}">
+                    <img src="../../assets/img/cycle_images/cycle{{cycleId}}.png" alt="">
+
+                    <h3 class="popular-name">{{shortName}}</h3>
+                    <span class="popular-description">{{description}}</span>
+                    <div class="popular-price">₹{{currentPrice}}</div>
+
+                    <button class="seeMore-btn button">
+                        See More
+                        <i class="ri-arrow-right-s-line"></i>
+                    </button>
+                </div>
+                -->
+
+            </div>
+
+            <!-- ========= Single Product Preview ======= -->
+            <div class="products-preview">
+
+                <!-- Template for Product Previews -->
+                <!--
+                <div class="preview" data-target="p-{{cycleId}}">
+                    <i class="fas fa-times"></i>
+                    <div class="product-image">
+                        <img src="../../assets/img/cycle_images/cycle{{cycleId}}.png" alt="">
+                    </div>
+
+                    <div class="product-info">
+                        <h4>{{name}}</h4>
+                        <p>{{description}}</p>
+                        <div class="prices">
+                            <div class="current-price">₹{{currentPrice}}</div>
+                            <div class="old-price">₹{{originalPrice}}</div>
+                            <div class="discount">{{discount}}</div>
+                        </div>
+                        <div class="product-description">
+                            <div class="product-rating">
+                                <span>{{starRating}}</span>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <div class="product-rating-count">
+                                <span>{{ratingCount}} Ratings</span>
+                            </div>
+                        </div>
+                        <div class="buy-button">
+                            <button class="button buy-btn">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                -->
+
+            </div>
+        </div>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer-container container grid">
+            <div class="footer-text-content">
+                <a href="../../index.html" class="footer-logo">
+                    RYD It!
+                </a>
+                <p class="footer-description">
+                    Pedal into Your Perfect Ride, <br>Explore Ryd It Today.
+                </p>
+                <p class="footer-description footer-description-contact">
+                    Phone: <a href="tel:9977880066">9977 880066</a><br>
+                    Email: <a href="mailto:at@lsoysapps.com">write@ryd.com</a>
+                </p>
+            </div>
+
+            <div class="footer-content">
+                <div>
+                    <h3 class="footer-title">
+                        Pages
+                    </h3>
+
+                    <ul class="footer-links">
+                        <li>
+                            <a href="../../index.html" class="footer-link">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="./about.html" class="footer-link">About Us</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Store</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">
+                        Career
+                    </h3>
+
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#" class="footer-link">Opening 1</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Opening 2</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Opening 3</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">
+                        Affiliation
+                    </h3>
+
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#" class="footer-link">Sell on RYD</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Advertise</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Become Affiliate</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">
+                        Follow Us
+                    </h3>
+
+                    <ul class="footer-social">
+                        <li class="footer-social-link">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="ri-facebook-circle-fill"></i>
+                            </a>
+                        </li>
+                        <li class="footer-social-link">
+                            <a href="https://www.linkedin.com/in/" target="_blank">
+                                <i class="ri-linkedin-box-fill"></i>
+                            </a>
+                        </li>
+                        <li class="footer-social-link">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer-social">
+                        <li class="footer-social-link">
+                            <a href="https://www.youtube.com/" target="_blank">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </li>
+                        <li class="footer-social-link">
+                            <a href="https://twitter.com/" target="_blank">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </li>
+                        <li class="footer-social-link">
+                            <a href="https://in.pinterest.com/" target="_blank">
+                                <i class="ri-pinterest-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-info container">
+            <span class="footer-copy">
+                &#169; <span id="current-year"></span>, RYD It. All rigths reserved
+            </span>
+
+            <div class="footer-madeby love">
+                Made with <i class="ri-heart-fill"></i> By LSOYS Apps (<a href="http://lsoysapps.com/"
+                    target=”_blank”>lsoysapps.com</a>)
+            </div>
+
+            <div class="footer-privacy">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ================= SCROLL UP ===================== -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-double-fill"></i>
+    </a>
+
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="../js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="../js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="../js/main.js"></script>
+    <script src="../js/shop.js"></script>
+    
+</body>
+
+</html>
